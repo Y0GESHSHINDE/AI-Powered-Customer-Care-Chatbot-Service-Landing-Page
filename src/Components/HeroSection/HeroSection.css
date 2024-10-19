@@ -1,0 +1,20 @@
+#demoimg {
+   height: 450px;
+   margin-left: 30px;
+}
+
+
+#HeroHeding {
+   font-family: "Bebas Neue", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+
+@media (max-width:768px) {
+   #demoimg {
+      height: 350px;
+      margin-left: 0px;
+   }
+
+}
