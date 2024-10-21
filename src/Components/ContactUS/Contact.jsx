@@ -5,11 +5,13 @@ function Contact() {
       if (!formData.name || !formData.mobile || !formData.email || !formData.message) {
          alert("Please fill out all fields.");
          return; 
+      }else{
+         
       }
       alert("Your Response is Recoeded Our Team will Conatct you Shortly");
    }
    return (
-      <div className='Conatiner-fluid  bg-light ' style={{height:"100vh"}}>
+      <div className='Conatiner-fluid ' style={{height:"100vh", backgroundColor:" #D6C0B3"}}>
          <div className="row d-flex justify-content-center">
             <div className="col-12 mt-5">
                <div className="row d-flex justify-content-center">
@@ -23,7 +25,7 @@ function Contact() {
 
                               <input type="tel" className='form-control mt-2' name="" id="" placeholder='Mobile Number' required/>
 
-                              <input type="text" className='form-control mt-2' name="" id="" placeholder='Name'required />
+                              <input type="Email" className='form-control mt-2' name="" id="" placeholder='Email'required />
 
                               <textarea type="text" className='form-control mt-2' name="" id="" placeholder='Your message'required />
 
