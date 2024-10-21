@@ -9,7 +9,7 @@ function HeroSection() {
             <div className="col-12 ">
                <div className="row text-center  d-flex justify-content-center align-items-center">
                   <div className="col-12 col-sm-6 col-lg-5 col-xl-4 col-xxl-4 mt-5 text-center">
-                     <img className='img-fluid' src="../src/assets/ChatBotdemo.png" alt="" id='demoimg' />
+                     <img className='img-fluid' src="https://images.pexels.com/photos/12918397/pexels-photo-12918397.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" id='demoimg' />
                   </div>
                   <div className="col-12 col-sm-6 col-lg-5 col-xl-4 col-xxl-4 mt-sm-5"  >
                      <h1 className=' m-5 mb-0' id='HeroHeding' >Revolutionize Customer Service with Intelligent Chatbots</h1>
