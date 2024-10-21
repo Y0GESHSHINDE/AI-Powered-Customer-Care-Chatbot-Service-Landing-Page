@@ -1,0 +1,18 @@
+.custom-shape-divider-bottom-1729409242 {
+   background-color: #FFB703;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+   transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1729409242 svg {
+   position: relative;
+   display: block;
+   width: calc(300% + 1.3px);
+   height: 363px;
+}
+
+.custom-shape-divider-bottom-1729409242 .shape-fill {
+   fill: #87A2FF;
+}

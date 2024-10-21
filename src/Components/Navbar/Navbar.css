@@ -8,7 +8,8 @@
 
 }
 #NavbarDiv{
-   background-color: aquamarine;
+   /* position: fixed; */
+   background-color: #f4f3ee;
    width: 100%;
 }
 

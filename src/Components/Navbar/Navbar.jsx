@@ -3,9 +3,9 @@ import "./Navbar.css"
 import { Link } from 'react-router-dom'
 function Navbar() {
    return (
-      <nav class="navbar navbar-expand-lg bg-danger-subtle">
+      <nav class="navbar navbar-expand-lg  " id='NavbarDiv'>
          <div class="container-fluid" >
-            <Link to={"/"} class="navbar-brand " href="#"><h3>Ai-chatbot</h3></Link>
+            <Link to={"/"} class="navbar-brand " href="#"><h3>NexBot</h3></Link>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
             </button>
@@ -18,13 +18,10 @@ function Navbar() {
                      <Link to={"/features"} class="nav-link active boldText " aria-current="page" href="#">Features</Link>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link active boldText " aria-current="page" href="#">Industry Applications</a>
+                     <Link to={"/subscription"} class="nav-link active boldText " aria-current="page" href="#">Subscription</Link>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link active boldText " aria-current="page" href="#">Technology</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link active boldText " aria-current="page" href="#">About Us</a>
+                     <Link to={"/contact"} class="nav-link active boldText " aria-current="page" href="#">Contact us</Link>
                   </li>
                </ul>
             </div>
